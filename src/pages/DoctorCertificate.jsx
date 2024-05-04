@@ -116,8 +116,8 @@ function DoctorCertificate() {
         </div>
         <div className="col-11 col-lg-6">
           <div
-            style={{ margin: "auto", width: "567px", height: "400px" }}
-            className="position-relative border p-2"
+            style={{ margin: "auto" }}
+            className="position-relative border p-2 appreciationContainer"
             ref={appreciationContainerRef}
           >
             <div
