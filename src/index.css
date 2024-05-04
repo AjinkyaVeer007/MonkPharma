@@ -8,6 +8,10 @@ body {
   height: 400px;
   width: 567px;
 }
+.doctorCertificate{
+  height: 400px;
+  width: 567px;
+}
 
 .appreciationCertificate{
   object-fit: contain;
@@ -50,5 +54,10 @@ body {
     width: 60px;
     bottom: 26%;
     right: 27%;
+  }
+
+  .doctorCertificate{
+    width: 90vw;
+    height: 300px;
   }
 }

@@ -117,26 +117,38 @@ function DoctorCertificate() {
         <div className="col-11 col-lg-6">
           <div
             style={{ margin: "auto" }}
-            className="position-relative border p-2 appreciationContainer"
+            className="position-relative border p-2 doctorCertificate mt-5 mt-lg-0"
             ref={appreciationContainerRef}
           >
             <div
-              style={{ position: "absolute", right: "0", top: "0" }}
-              className="p-3"
+              style={{
+                position: "absolute",
+                right: "0",
+                top: "0",
+                padding: "20px",
+              }}
             >
               <img width={"100px"} src={monkLogo} alt="Monk consultancy" />
             </div>
             <div
-              style={{ position: "absolute", bottom: "0", left: "0" }}
-              className="p-3"
+              style={{
+                position: "absolute",
+                bottom: "0",
+                left: "0",
+                padding: "20px",
+              }}
             >
-              <img width={"100px"} src={alembicLogo} alt="alembiclimited" />
+              <img width={"70px"} src={alembicLogo} alt="alembiclimited" />
             </div>
             <div
-              style={{ position: "absolute", bottom: "0", right: "0" }}
-              className="p-3"
+              style={{
+                position: "absolute",
+                bottom: "0",
+                right: "0",
+                padding: "20px",
+              }}
             >
-              <img width={"100px"} src={gskLogo} alt="alembiclimited" />
+              <img width={"70px"} src={gskLogo} alt="alembiclimited" />
             </div>
             <div
               style={{
@@ -144,7 +156,7 @@ function DoctorCertificate() {
                 width: `${imageSize}px`,
                 borderRadius: "50%",
                 position: "absolute",
-                top: "30%",
+                top: "40%",
                 left: "50%",
                 transform: "translate(-50%, -50%)",
                 border: "4px solid #2169b1",
@@ -158,10 +170,10 @@ function DoctorCertificate() {
               <div
                 style={{
                   position: "absolute",
-                  top: "55%",
+                  top: "68%",
                   left: "50%",
                   transform: "translateX(-50%)",
-                  fontSize: "25px",
+                  fontSize: "20px",
                   color: "#f36633",
                   fontWeight: "bold",
                   textDecoration: "underline",
