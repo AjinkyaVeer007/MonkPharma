@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { Button, Form, InputGroup } from "react-bootstrap";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
-import monkLogo from "../assets/monk.png";
+import monkLogo from "../assets/yuki.jpeg";
 import alembicLogo from "../assets/Logo.png";
 import gskLogo from "../assets/gsk.png";
 
