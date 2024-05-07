@@ -125,7 +125,7 @@ function DoctorCertificate() {
                 position: "absolute",
                 right: "0",
                 top: "0",
-                padding: "20px",
+                padding: "10px",
               }}
             >
               <img width={"100px"} src={monkLogo} alt="Monk consultancy" />
