@@ -139,11 +139,10 @@ function MothersDayCertificate() {
                 <img
                   src={imagePreview}
                   style={{
-                    height: "240px",
                     width: "170px",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
+                    backgroundSize: "contain",
                   }}
                   alt=""
                 />
