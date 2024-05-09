@@ -93,24 +93,14 @@ function MothersDayCertificate() {
               </Form.Group>
               <Form.Group className="mb-3">
                 <Form.Label>Relation</Form.Label>
-                <InputGroup className="mb-3">
-                  <DropdownButton variant="outline-secondary" title="">
-                    {relationsList &&
-                      relationsList.map((rel) => (
-                        <Dropdown.Item
-                          key={rel}
-                          onClick={() => setRelation(rel)}
-                        >
-                          {rel}
-                        </Dropdown.Item>
-                      ))}
-                  </DropdownButton>
-                  <Form.Control
-                    placeholder="Select relation"
-                    value={relation}
-                    readOnly
-                  />
-                </InputGroup>
+                <Form.Select onChange={(e) => setRelation(e.target.value)}>
+                  <option value="">Open this select menu</option>
+                  {relationsList &&
+                    relationsList.map((rel) => (
+                      <option value={rel}>{rel}</option>
+                    ))}
+                </Form.Select>
+
                 <Form.Control.Feedback type="invalid">
                   Relation is mandatory
                 </Form.Control.Feedback>
@@ -146,17 +136,17 @@ function MothersDayCertificate() {
           >
             <div className="row g-0 h-100">
               <div className="col-6">
-                <div
-                  className="rounded"
+                <img
+                  src={imagePreview}
                   style={{
                     height: "240px",
                     width: "170px",
-                    backgroundImage: `url(${imagePreview})`,
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                   }}
-                ></div>
+                  alt=""
+                />
               </div>
               <div className="col-6">
                 <div className="text-center h-100">
